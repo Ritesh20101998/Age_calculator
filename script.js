@@ -39,7 +39,9 @@ function cal_age(){
     }
     console.log(y3,m3,d3)
 
-    res.innerHTML = `You age is ${y3} years ${m3} months and ${d3} days.`
+   
+
+    res.innerHTML = `Your age is ${y3} years ${m3} months and ${d3} days.`
 }
 
 function getDaysInMonth(year, month){
